@@ -1,0 +1,259 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 500px;
+    background: #d6eef0 center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.business-footer {
+       height: 250px;
+    background: url(footer.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.business-back {
+    height: 500px;
+    background: url(back-1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;    
+
+}
+
+.business-back>h1{
+    color: white;
+    float: right;
+    margin: 20px;
+    padding-bottom: : 20px;
+
+}
+
+
+.navbar.always-open .navbar-header {
+  float: none;
+}
+.navbar.always-open .navbar-toggle {
+  display: block;
+}
+
+.navbar.always-open .navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar.always-open .navbar-nav {
+  float: none!important;
+  margin: 7.5px -15px;
+}
+.navbar.always-open .navbar-nav>li {
+  float: none;
+}
+.navbar.always-open .navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ @media (max-width: 2000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+   
+    
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+
+    .download>h2>a{ 
+        float: right;
+        color:#e62d52;
+        font-weight: bold;
+         text-decoration: underline;
+         padding-right: 100px;
+         cursor: pointer;
+         margin-bottom: 3%
+          font-size: 30px;
+    font-size: 3.5vw;
+    padding-top: 4%
+
+
+
+     }
+
+#pos {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2%;
+    text-align: right;
+      font-family: 'Droid Arabic Naskh', serif;
+      padding-top: 1px;
+      margin-right:20px;
+
+}
+
+h1{
+       font-size: 30px;
+    font-size: 3.5vw;
+}
+
+h3 {
+         font-size: 5px;
+    font-size: 1.5vw;
+
+}
+
+a{
+    color: white;
+}
+a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+    float: center;
+}
+
+
+/* facebook button class*/
+.facebookBtn{
+    background: #15af9f;
+    margin: 2%
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #15af9f;
+    margin: 2%
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+      border-color: #00ABE3;
+}
+
+/* google plus button class*/
+.youtubeBtn{
+    background: #15af9f;
+    margin: 2%
+}
+
+.youtubeBtn:before{
+      font-family: "FontAwesome";
+      content: "\f16a"; /* add googleplus icon */
+}
+
+.youtubeBtn:hover{
+      color: #e64522;
+      background: #fff;
+      border-color: #e64522;
+}
+
+/* linkedin button class*/
+.insta{
+    background: #15af9f;
+    margin:2%;
+}
+
+.insta:before{
+      font-family: "FontAwesome";
+      content: "\f16d"; /* add linkedin icon */
+}
+
+.insta:hover{
+      color: #cd486b;
+      background: #fff;
+      border-color: #cd486b;
+}
